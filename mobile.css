@@ -1,0 +1,6 @@
+/* Styles for devices with screen width between 400px and 900px */
+@media screen and (min-width: 400px) and (max-width: 900px) {
+    body {
+      background-color: rgb(228, 0, 0);
+    }
+  }
