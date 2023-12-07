@@ -1,105 +1,127 @@
 <DOCTYPE html>
   <html lang="en">
-    
-    <head>
-      <meta charset="UTG-8" />
-      <title> Sidharthh's Site | A Web Developer </title>
-      <!-- Style Sheet -->
-      <link rel="stylesheet" href="style.css" />
-      <!--  Another Style sheet -->
-      <link rel="stylesheet" href="style.css" />
-      <!-- Favion Icon -->
-      <link rel="icon" href="favicon.ico?v=2">
 
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      
-      <!-- For the google font -->
-      <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet" />
-     
-      <!-- Moblie style -->
-      <link rel="stylesheet" href="mobile.css">
-    </head>
-    
-    <body>
-      <div class="head">
-        <div class="name">
-          <h2>Hey! this is Sidharth.</h2>
-          <p>i love code & design.</p>
-        </div>
-        <div class="site-img">
-          <!-- Front-end skills -->
-          <img class="html" src="Images/html-5.png" alt="html-img" draggable="false" />
-          <img class="css" src="Images/css-3.png" alt="css-img"  draggable="false"/>
-          <img class="js" src="Images/js.png" alt="js-img"  draggable="false"/>
-          <img class="react" src="Images/react.png" alt="react-img" draggable="false" />
-          <!-- UX UI Skills -->
-          <img class="figma" src="Images/figma.png" alt="figma-img"  draggable="false"/>
-          <img class="pen-tool" src="Images/pen-tool.png" alt="pen-tool-img" draggable="false" />
-          
-        </div>
-        <img class="home-img" src="Images/home wall.png" alt="A men with Computer" draggable="false" />
+  <head>
+    <meta charset="UTG-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sidharthh's Site | A Web Developer </title>
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="style.css" />
+    <!--  Another Style sheet -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Favion Icon -->
+    <link rel="icon" href="favicon.ico?v=2">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- For the google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet" />
+
+    <!-- Moblie style -->
+    <link rel="stylesheet" href="mobile.css">
+  </head>
+
+  <body>
+    <div class="head">
+      <div class="name">
+        <h2 class="primary-color">Hey! this is Sidharth.</h2>
+        <p class="secondary-color" >i love code & design.</p>
       </div>
-      
-      <div class="middle-container">
+      <img class="home-img" src="Images/home wall.png" alt="A men with Computer" draggable="false" />
+    </div>
+
+    <div>
+
+
+
+      <figure class="middle-container">
         <div class="profile">
           <img src="Images/user.png" alt="my profile picture" draggable="false">
-          <h2>Hello.</h2>
-          <p>Hey! I'm Sidharth and I love ❤ to code and making them cool with design.
+          <h2 class="primary-color">Hello.</h2>
+          <figcaption class="secondary-color">Hey! I'm Sidharth and I love ❤ to code and making them cool with design.
             <br>
             Eager to learn and create beautiful and functional websites. With zero experience, they bring a fresh
             perspective and a hunger for growth.
-        </p>
-      </div>
+          </figcaption>
+      </figure>
+
+
+
       <br>
       <br>
       <hr>
-      <div class="skills">
-        <h2>My Skills.</h2>
-        <div class="Front-end-design">
+      <section class="skills">
+        <h2 class="primary-color">My Skills.</h2>
+
+        <!-- Front-end Skill -->
+        <div class="skill-section">
           <img src="Images/responsive-design.png" alt=" web design picture" draggable="false">
-          <div class="front-end-text">
-            <h3>Front-end Design</h3>
-            <p>A skilled Front-End Web Developer with expertise in HTML, CSS, JavaScript, and various web development
-              frameworks. Possessing a keen eye for design and a passion for creating dynamic, user-friendly interfaces,
-              this developer is dedicated to crafting seamless and visually stunning web experiences..</p>
-            </div>
+          <div class="skill-section-text">
+            <h3 class="primary-color">Front-end Design</h3>
+            <p class="secondary-color">Frontend Dev proficient in HTML, CSS, and JavaScript, with expertise in
+              React for dynamic interfaces. Skilled in crafting responsive designs using Bootstrap and employing
+              Tailwind CSS for efficient styling. Additionally, well-versed in Material-UI to create visually appealing
+              and consistent interfaces following Material Design principles. Adept at delivering user-friendly web
+              applications by combining a range of frontend technologies and staying current with industry trends.</p>
           </div>
-          <div class="ux-ui_developer">
-            <div class="ux-ui_text">
-              <h3>Back-end Developer</h3>
-            <p>A full stack web developer with a back-end focus designs, builds, and maintains the server-side of web
-              applications. They work closely with the front-end developer to ensure seamless integration of the client
-              and server-side. The back-end developer must have expertise in programming languages such as Java, Python,
-              Ruby, and PHP, as well as familiarity with databases.</p>
-            </div>
-          <img src="Images/ui.png" alt="ux-uiimg" draggable="false">
         </div>
-      </div>
-      <br>
+        <div class="dots">.....</div>
+
+        <!-- Backend-end Skill -->
+        <div class="skill-section">
+          <img src="Images/software.png" alt="back-end img" draggable="false" style="width: 200px; height: 200px;">
+          <div class="skill-section-text">
+            <h3 class="primary-color">Back-end Developer</h3>
+            <p class="secondary-color">A Backend Dev with a back-end focus designs, builds, and maintains
+              the server-side of web applications. I specialize in working with Node.js, particularly in the context of
+              the MERN (MongoDB, Express.js, React, Node.js) stack. I collaborate closely with front-end developers to
+              ensure a smooth integration between the client and server-side. My expertise lies in programming languages
+              such as JavaScript (Node.js).</p>
+          </div>
+        </div>
+
+        <!-- UX UI Skill -->
+        <div class="dots">.....</div>
+        <div class="skill-section">
+          <img src="Images/ui.png" alt=" UX UI  despicture" draggable="false">
+          <div class="skill-section-text">
+            <h3 class="primary-color">UX UI Design</h3>
+            <p class="secondary-color"> As a UX/UI Designer, my proficiency in Figma is the cornerstone of my design
+              process, allowing me to craft intuitive and visually appealing digital experiences. Experienced in
+              wireframing and prototyping, I specialize in translating complex requirements into user-friendly designs.
+              Rooted in a deep understanding of user psychology, I ensure the optimization of interactions, creating
+              interfaces that not only meet but exceed user expectations...</p>
+          </div>
+        </div>
+      </section>
       <br>
       <hr>
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>If you have any queires about me , talk to me.</h3>
-        <p>I feel grateful that you have expressed a desire to engage in conversation with me. Thank you for this ❤.</p>
+      <section class="contact-me">
+        <h1 class="primary-color">Get In Touch</h1>
+        <h3 class="secondary-color">If you have any queires about me, talk to me.</h3>
+        <p class="secondary-color">I feel grateful that you have expressed a desire to engage in conversation with me.
+          <br>
+          Thank you for this ❤.
+        </p>
         <a class="btn" href="mailto:sidharthpandro50@gmail.com">CONTACT ME</a>
-      </div>
-    </div>
-    
-    
-    <div class="bottom-container">
-      <div class="icon">
-        <a href="https://www.instagram.com/sidharth.pandro/" target="_blank"><i class="fa-brands fa-instagram" ></i> </a>
-        <a href="https://www.linkedin.com/in/sidharthh-pandro-648857235/" target="_blank" > <i class="fa-brands fa-linkedin" > </i> </a>
-        <a href="https://twitter.com/iamsidharthhh" target="_blank" > <i class="fa-brands fa-twitter"> </i> </a>
-        <a href="https://github.com/sidhrthh" target="_blank" > <i class="fa-brands fa-github"></i> </a>
-        
-      </div>
-      <!-- <p style="line-height: 3;"> Sidharth Pandro &copy;2023 </p> -->
-    </div>
- <!--  For the Icons -->
-    <script src="https://kit.fontawesome.com/189eea699f.js" crossorigin="anonymous"></script>
+      </section>
+
+
+
+      <footer class="bottom-container">
+        <div class="icon">
+          <a href="https://www.instagram.com/sidharth.pandro/" target="_blank"><i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/sidharthh-pandro-648857235/" target="_blank"> <i
+              class="fa-brands fa-linkedin"> </i> </a>
+          <a href="https://twitter.com/iamsidharthhh" target="_blank"> <i class="fa-brands fa-x-twitter"></i> </a>
+          <a href="https://github.com/sidhrthh" target="_blank"> <i class="fa-brands fa-github"></i> </a>
+
+        </div>
+      </footer>
+      <!--  For the Icons -->
+      <script src="https://kit.fontawesome.com/189eea699f.js" crossorigin="anonymous"></script>
   </body>
 
   </html>

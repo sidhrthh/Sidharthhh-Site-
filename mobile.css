@@ -1,6 +1,25 @@
 /* Styles for devices with screen width between 400px and 900px */
 @media screen and (min-width: 400px) and (max-width: 900px) {
-    body {
-      background-color: rgb(228, 0, 0);
+    body{
+        /* background-color: red; */
+    }
+    .name h2 {
+        font-size: 50px;
+        margin-top: 30px;
+    }
+    .name>p{
+        font-size: 25px;
+    }
+    .html {
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        top: 40px;
+        left: 158px;
+    }
+    .home-img {
+        position: absolute;
+        /* left: px; */
+        top: 0;
     }
   }

@@ -1,14 +1,29 @@
-* {
+/* IMport Font Family */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Sacramento&display=swap');* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    font-family: 'Inter', sans-serif;
+}
+.secondary-color{
+    color: rgba(0, 157, 149);
+}
+.primary-color{
+    color: #0000009c;
+}
 .head {
     background-color: #ECC9EE;
     height: 130vh;
 }
-
+/* Horizontal dots */
+.dots{
+    text-align: center;
+    font-size: 45px;
+    color: rgba(0, 157, 149);
+}
+/* Landing Page Heading */
 .name {
     padding: 20px;
     text-align: center;
@@ -16,13 +31,10 @@
 
 .name h2 {
     font-size: 90px;
-    font-family: 'Amatic SC', 'cursive', 'arial';
-    margin-top: 30px;
-
+    font-family: 'Sacramento', cursive;
 }
 
 .name>p {
-    color: rgb(0, 157, 148, 1);
     font-size: 20px;
     line-height: 2;
     font-family: sans-serif;
@@ -32,59 +44,11 @@
     position: relative;
 }
 
-.html {
-    position: absolute;
-    height: 100px;
-    width: 100px;
-    top: -104px;
-    left: 158px;
-}
-.react{
-    position: absolute;
-    height: 100px;
-    width: 100px;
-    top: 250px;
-    left: 158px;
-}
-.pen-tool{
-    position: absolute;
-    height: 100px;
-    width: 100px;
-    top: 250px;
-    right: 200px;
-}
-.css {
-    position: absolute;
-    height: 100px;
-    width: 100px;
-    top: 70px;
-    left: 82px;
-
-}
-
-.js {
-    position: absolute;
-    height: 100px;
-    width: 100px;
-    top: 70px;
-    right: 90px;
-
-}
-
-.figma {
-    position: absolute;
-    height: 100px;
-    width: 100px;
-    top: -120px;
-    right: 178px;
-
-}
-
+/* Landing Page Style */
 .home-img {
     position: absolute;
     left: 389px;
     top: 252px;
-
 }
 
 .profile>img {
@@ -106,13 +70,13 @@
     font-family: sans-serif;
 }
 
-.profile>p {
+figcaption{
     text-align: center;
     line-height: 1.4;
-    font-size: 16px;
-    color: rgb(0, 157, 148, 1);
+    font-size: 18px;
 }
 
+/* Skill Section Style */
 .skills>h2 {
     text-align: center;
     font-size: 45px;
@@ -120,81 +84,49 @@
     margin: 20px 0;
 }
 
-.Front-end-design {
+.skill-section {
     width: 60%;
     display: flex;
     margin: 50px auto;
 }
 
-.Front-end-design>img {
-    width: 160px;
-    height:160px;
-    margin-top: 40px;
+.skill-section img {
+    width: 180px;
+    height:180px;
+    margin-top: 60px;
 
 }
 
-.front-end-text {
+.skill-section-text {
     padding-left: 40px;
     margin-top: 20px;
 }
 
-.front-end-text>h3 {
+.skill-section-text h3 {
     font-size: 25px;
     font-family: sans-serif;
     margin-top: 20px;
 
 }
 
-.front-end-text>p {
+.skill-section-text p {
     margin-top: 20px;
     text-align: left;
     line-height: 1.4;
-    font-size: 16px;
-    color: rgb(0, 157, 148, 1);
+    font-size: 18px;
 }
 
-.ux-ui_developer{
-    width: 60%;
-    display: flex;
-    margin: 50px auto;
-}
-
-.ux-ui_developer>img {
-    width: 160px;
-    height:160px;
-    margin-top: 40px;
-}
-
-.ux-ui_text {
-    padding-right: 40px;
-    margin-top: 20px;
-}
-
-.ux-ui_text>h3 {
-    font-size: 25px;
-    font-family: sans-serif;
-    margin-top: 20px;
-
-}
-
-.ux-ui_text>p {
-    margin-top: 20px;
-    text-align: left;
-    line-height: 1.4;
-    font-size: 16px;
-    color: rgb(0, 157, 148, 1);
-}
-
+/* Contact Page Style */
 .contact-me {
     width: 60%;
     display: block;
     margin: 50px auto;
 }
 
-.contact-me>h2 {
+.contact-me>h1 {
     font-size: 38px;
     text-align: center;
-    margin: 40px;
+    margin: 30px;
     font-family: sans-serif;
 }
 
@@ -208,8 +140,7 @@
     margin: 20px;
     text-align: center;
     /* line-height: 1.4; */
-    font-size: 16px;
-    color: rgb(0, 157, 148, 1);
+    font-size: 18px;
 }
 
 .btn {
