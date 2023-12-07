@@ -67,7 +67,6 @@ body{
     text-align: center;
     line-height: 1.5;
     font-size: 37px;
-    font-family: sans-serif;
 }
 
 figcaption{
@@ -80,14 +79,13 @@ figcaption{
 .skills>h2 {
     text-align: center;
     font-size: 45px;
-    font-family: sans-serif;
     margin: 20px 0;
 }
 
 .skill-section {
     width: 60%;
     display: flex;
-    margin: 50px auto;
+    margin: 0 auto;
 }
 
 .skill-section img {
@@ -98,13 +96,12 @@ figcaption{
 }
 
 .skill-section-text {
-    padding-left: 40px;
+    margin-left: 40px;
     margin-top: 20px;
 }
 
 .skill-section-text h3 {
     font-size: 25px;
-    font-family: sans-serif;
     margin-top: 20px;
 
 }
@@ -127,7 +124,6 @@ figcaption{
     font-size: 38px;
     text-align: center;
     margin: 30px;
-    font-family: sans-serif;
 }
 
 .contact-me>h3 {
@@ -156,7 +152,7 @@ figcaption{
     -webkit-box-shadow: 0px 3px 8px #666666;
     -moz-box-shadow: 0px 3px 8px #666666;
     box-shadow: 0px 3px 8px #666666;
-    font-family: Arial;
+
     color: #1f1a1f;
     font-size: 18px;
     padding: 11px 27px 11px 29px;

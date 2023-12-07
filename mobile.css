@@ -1,25 +1,77 @@
 /* Styles for devices with screen width between 400px and 900px */
 @media screen and (min-width: 400px) and (max-width: 900px) {
-    body{
-        /* background-color: red; */
-    }
+
+    /* Landing Page */
     .name h2 {
-        font-size: 50px;
-        margin-top: 30px;
+        font-size: 60px;
+        padding: 10px;
+
     }
-    .name>p{
-        font-size: 25px;
-    }
-    .html {
-        position: absolute;
-        height: 100px;
-        width: 100px;
-        top: 40px;
-        left: 158px;
-    }
+
+
     .home-img {
         position: absolute;
-        /* left: px; */
-        top: 0;
+        left: 160px;
+        top: 200px;
+        width: 250px;
     }
-  }
+
+    .head {
+        height: 90vh;
+    }
+
+    /* Profile Section */
+    .profile>img {
+        width: 180px;
+    }
+
+    .profile>h2 {
+        font-size: 35px;
+    }
+
+    figcaption {
+        text-align: center;
+        line-height: 1.4;
+        font-size: 16px;
+    }
+
+    /* Skill Section */
+    .skills>h2 {
+        font-size: 35px;
+    }
+
+    .skill-section {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skill-section img {
+        margin-left: 160px;
+    }
+    .skill-section-text h3 {
+        text-align: center;
+    }
+    .skill-section-text p {
+        text-align: center;
+        line-height: 1.4;
+        font-size: 17px;
+    }
+/* Contact Section */
+.contact-me>h1 {
+    font-size: 35px;
+}
+.contact-me>p {
+    margin: 17px;
+    text-align: center;
+    line-height: 1.4;
+    font-size: 18px;
+}
+.btn {
+    margin: auto;
+}
+
+
+
+
+}
