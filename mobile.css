@@ -10,13 +10,13 @@
 
 
     .home-img {
-    left: 125px;
+    left: 95px;
     top: 275px;
     width: 250px;
     }
 
     .head {
-        height: 53vh;
+        height: 77vh;
     }
 
     /* Profile Section */
@@ -46,7 +46,7 @@
     }
 
     .skill-section img {
-        margin-left: 100px;
+        margin-left: 80px;
     }
     .skill-section-text h3 {
         text-align: center;
