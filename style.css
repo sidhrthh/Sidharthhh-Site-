@@ -86,6 +86,7 @@ figcaption{
     width: 60%;
     display: flex;
     margin: 0 auto;
+    gap: 30px;
 }
 
 .skill-section img {
@@ -96,7 +97,7 @@ figcaption{
 }
 
 .skill-section-text {
-    margin-left: 40px;
+    /* margin-left: 40px; */
     margin-top: 20px;
 }
 
