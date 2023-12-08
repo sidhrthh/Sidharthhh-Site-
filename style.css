@@ -75,6 +75,7 @@ figcaption{
     font-size: 18px;
 }
 
+
 /* Skill Section Style */
 .skills>h2 {
     text-align: center;
@@ -83,36 +84,56 @@ figcaption{
 }
 
 .skill-section {
-    width: 60%;
+    width: 90%;
     display: flex;
     margin: 0 auto;
-    gap: 30px;
+    justify-content: space-between;
+align-items: center;
+    gap: 70px;
 }
 
 .skill-section img {
-    width: 180px;
-    height:180px;
-    margin-top: 60px;
+    width: 25%;
+    margin: 60px 0 0 150px;
 
 }
+.ux_ui img {
+    width: 20%;
+    margin: 60px 0 0 150px;
 
+
+}
 .skill-section-text {
-    /* margin-left: 40px; */
+   width: 50%;
     margin-top: 20px;
+
 }
 
 .skill-section-text h3 {
     font-size: 25px;
-    margin-top: 20px;
+    margin: 20px 0 30px 0;
+    margin-left: -19px;
 
 }
 
 .skill-section-text p {
     margin-top: 20px;
-    text-align: left;
     line-height: 1.4;
     font-size: 18px;
 }
+ul {
+    margin-bottom: 10px; 
+  }
+  ul ul {
+    margin-top: 5px;
+  }
+  .sub-skills li {
+    margin-left: 3%;
+  }
+ .point-space li {
+    margin-bottom: 10px; 
+    margin-top: 5px;
+ }
 
 /* Contact Page Style */
 .contact-me {
