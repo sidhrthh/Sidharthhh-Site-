@@ -160,7 +160,9 @@ ul {
     /* line-height: 1.4; */
     font-size: 18px;
 }
-
+.projec-btn{
+margin: 20px 0 20px 0;
+}
 .btn {
     background: rgb(0, 157, 148, 1);
     background-image: -webkit-linear-gradient(top, rgb(0, 157, 148, 1), rgb(0, 157, 148, 1));
